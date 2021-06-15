@@ -1,0 +1,71 @@
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: 15px;
+
+  @screen sm {
+    font-size: 16px;
+  }
+  @screen md {
+    font-size: 17px;
+  }
+  @screen lg {
+    font-size: 18px;
+  }
+  @screen xl {
+    font-size: 19px;
+  }
+  @screen 2xl {
+    font-size: 20px;
+  }
+}
+
+.stage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.layout-main {
+  flex-grow: 1;
+}
+
+.layout-header, .layout-main, .layout-footer {
+  flex-shrink: 0;
+}
+
+* > p {
+  margin-bottom: 1rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+body::-webkit-scrollbar {
+    width: .75em;
+}
+
+body::-webkit-scrollbar-track {
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    @apply bg-gray-100;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary;
+}
+
+::-moz-selection {
+  background-color: $primary;
+  color: white;
+}
+
+::selection {
+  background-color: $primary;
+  color: white;
+}
