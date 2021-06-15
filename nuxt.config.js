@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'johanna-groiss',
+    title: 'Tapezierer Johanna Groiss',
     htmlAttrs: {
       lang: 'en'
     },
