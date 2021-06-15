@@ -14,5 +14,11 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'comma-dangle': ['error', 'always-multiline'],
+    semi: [2, 'always'],
+    quotes: [2, 'single'],
+    'no-console': 'off',
+    'no-unused-vars': 'off',
+  }
 }
