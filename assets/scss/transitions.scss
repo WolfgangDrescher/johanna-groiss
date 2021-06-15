@@ -1,0 +1,10 @@
+.page-leave-active,
+.page-enter-active {
+	transform: translateY(0);
+	transition: all 0.3s;
+}
+.page-enter,
+.page-leave-to {
+	opacity: 0;
+	transform: translateY(-10px);
+}
