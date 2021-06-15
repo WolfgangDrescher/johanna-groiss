@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'Tapezierer Johanna Groiss',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
