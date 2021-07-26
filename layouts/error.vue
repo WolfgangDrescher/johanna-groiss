@@ -11,20 +11,20 @@
 
 <script>
 export default {
+  layout: 'error',
   props: {
     error: {
       type: Object,
       default: () => {},
     },
   },
-  layout: 'error',
-  created () {
-    console.log(this.error);
-  },
   head () {
     return {
       title: `[${this.error.statusCode}] ${this.error.message}`,
     };
+  },
+  created () {
+    console.log(this.error);
   },
 };
 </script>
