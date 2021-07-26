@@ -10,8 +10,11 @@
         <nuxt-link class="nav-item" :to="{name: 'index'}">
           Über mich
         </nuxt-link>
-        <nuxt-link class="nav-item" :to="{name: 'index'}">
+        <nuxt-link class="nav-item" :to="{name: 'angebot'}">
           Angebot
+        </nuxt-link>
+        <nuxt-link class="nav-item" :to="{name: 'vita'}">
+          Vita
         </nuxt-link>
       </div>
     </div>
