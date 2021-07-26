@@ -16,6 +16,9 @@
         <nuxt-link class="nav-item" :to="{name: 'vita'}">
           Vita
         </nuxt-link>
+        <nuxt-link class="nav-item" :to="{name: 'projekte'}">
+          Projekte
+        </nuxt-link>
       </div>
     </div>
   </header>
