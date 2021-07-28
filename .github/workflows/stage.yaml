@@ -1,6 +1,10 @@
 name: stage
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+        - master
+  workflow_dispatch: ~
 
 jobs:
   cd:
